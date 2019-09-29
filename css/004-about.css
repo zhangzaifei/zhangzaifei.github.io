@@ -1,0 +1,305 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{
+    margin: 0;
+    padding: 0;
+}
+body{font-size:12px;}
+img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none;}
+a{text-decoration:none; color: black}
+/* 清除浮动 */
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+.a-100{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.img-100{
+    width: 100%;
+    height: 100%;
+}
+/*头部*/
+.header{
+    width: 100%;
+    height: 50px;
+    /*background-color: red;*/
+    /*border-bottom: 1px solid #919191;*/
+}
+/*头部容器*/
+.header .header-Container{
+    width: 1200px;
+    height: 50px;
+    /*background-color: greenyellow;*/
+    margin: 0 auto;
+    position: relative;
+}
+/*LOGO商标图*/
+.header .header-logo{
+    width: 150px;
+    height: 50px;
+    /*background-color: aqua;*/
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+.header .header-logo a img{
+    width: 150px;
+    /*margin-bottom: 8px;*/
+}
+/*导航栏*/
+.header .header-nav{
+    width: 400px;
+    height: 50px;
+    /*background-color: blueviolet;*/
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+}
+.header .header-nav ul li{
+    float: left;
+    width: 100px;
+    height: 47px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 47px;
+}
+.header .header-nav ul li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.header .header-nav ul .header-nav-000{
+	border-bottom: 3px solid #52CB6B;
+}
+/*用户登录*/
+.header .header-Login{
+    width: 120px;
+    height: 50px;
+    float: right;
+}
+.header .header-Login div:nth-child(1){
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    float: left;
+}
+.header .header-Login div:nth-child(2){
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    float: right;
+}
+/*中部*/
+.content{
+    width: 100%;
+    background-color: #ececec;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+/*中部容器*/
+.content .content-Container{
+    width: 1150px;
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+.content .content-Container .content-Txt1 h2{
+    margin-bottom: 40px;
+}
+.content .content-Container .content-Txt1 p{
+    font-size: 15px;
+    line-height: 35px;
+}
+.content .content-Container .content-Txt1 p:nth-child(5){
+    font-size: 15px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+.content .content-Container .content-Txt1 p:nth-child(6){
+    font-weight: 1000;
+}
+.content .content-Container .content-Txt1 p:nth-child(13){
+    margin-bottom: 50px;
+}
+.content .content-Container .content-Txt1 p:nth-child(16){
+    margin-bottom: 50px;
+}
+.content .content-Container .content-Txt2{
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 15px;
+    line-height: 35px;
+}
+
+
+/* 登陆板块 */
+.content .Landing-Container{
+	width: 600px;
+	height: ;
+	margin: 0 auto;
+	/* margin-top: 20px; */
+	padding-top: 100px;
+	display: none;
+}
+.content .Landing-Container .Landing-top{
+	width: 500px;
+	height: 500px;
+	background-color: #fff;
+	position: relative;
+}
+.content .Landing-Container .Landing-top>p{
+	width: 500px;
+	height: 69px;
+	font-size: 17px;
+	text-align: center;
+	line-height: 69px;
+	border-bottom: 1px solid #C0C0C0;
+	/* background-color: red; */
+}
+.content .Landing-Container .Landing-top form input:nth-child(1){
+	width: 260px;
+	height: 40px;
+	position: absolute;
+	top: 100px;
+	left: 120px;
+	border: 1px solid #C0C0C0;
+	border-radius: 10px;
+	text-indent: 25px;
+	color: #808080;
+}
+.content .Landing-Container .Landing-top form input:nth-child(2){
+	width: 260px;
+	height: 40px;
+	position: absolute;
+	top: 170px;
+	left: 120px;
+	border: 1px solid #C0C0C0;
+	border-radius: 10px;
+	text-indent: 25px;
+	color: #C0C0C0;
+}
+.content .Landing-Container .Landing-top form span a{
+	color: #52CB6B;
+	position: absolute;
+	top: 230px;
+	left: 330px;
+}
+.content .Landing-Container .Landing-top form button{
+	width: 240px;
+	height: 40px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+	color: #FFFFFF;
+	background-color: #52CB6B;
+	border: none;
+	border-radius: 25px;
+	position: absolute;
+	left: 130px;
+	top: 280px;
+}
+.content .Landing-Container .Landing-top form p{
+	width: 500px;
+	height: 50px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 50px;
+	position: absolute;
+	top: 320px;
+}
+.content .Landing-Container .Landing-top form p a{
+	color: #52CB6B;
+}
+.content .Landing-Container .Landing-top form>a{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
+.content .Landing-Container .Landing-top form .QQ-Landing{
+	position: absolute;
+	bottom: 50px;
+	left: 170px;
+}
+.content .Landing-Container .Landing-top form .WeChat-Lamding{
+	position: absolute;
+	bottom: 50px;
+	right: 170px;
+}
+
+
+/*底部*/
+.footer{
+    width: 100%;
+    height: 100px;
+    /*background-color: chocolate;*/
+}
+/*底部容器*/
+.footer .footer-Container{
+    width: 1200px;
+    height: 100px;
+    /*background-color: darkred;*/
+    margin: 0 auto;
+}
+.footer .footer-Container .footer-Left{
+    width: 480px;
+    height: 100px;
+    /*background-color: yellow;*/
+    display: inline-block;
+}
+.footer .footer-Container .footer-Left ul li{
+    width: 120px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 15px;
+    float: left;
+}
+.footer .footer-Container .footer-Right{
+    width: 500px;
+    height: 100px;
+    /*background-color: blue;*/
+    /*display: inline-block;*/
+    float: right;
+}
+.footer .footer-Container .footer-Right .footer-Right-top{
+    width: 500px;
+    height: 50px;
+    /*background-color: coral;*/
+    position: relative;
+}
+.footer .footer-Container .footer-Right .footer-Right-top .footer-Img-01{
+    height: 30px;
+    margin-top: 35px;
+}
+.footer .footer-Container .footer-Right .footer-Right-top p{
+    display: inline-block;
+    position: absolute;
+    top: 17px;
+    left: 170px;
+}
+.footer .footer-Container .footer-Right .footer-Right-top .footer-Img-02{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 430px;
+    top: 30px;
+}
+.footer .footer-Container .footer-Right .footer-Right-top .A-01{
+    width: 40px;
+    height: 40px;
+}
+.footer .footer-Container .footer-Right .footer-Right-bottom{
+    width: 500px;
+    height:50px;
+    text-align: center;
+    font-size: 12px;
+    /*background-color: greenyellow;*/
+}
